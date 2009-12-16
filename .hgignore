@@ -1,0 +1,8 @@
+^dist/
+^django_errorstack.egg-info/
+^build/
+.pyc$
+^HGREV$
+^.project$
+^.pydevproject$
+^TAGS
