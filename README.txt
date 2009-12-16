@@ -1,6 +1,6 @@
-===============
+=================
 django-errorstack
-===============
+=================
 
 A Django reusable application for logging errors to the `ErrorStack`_
 service.
