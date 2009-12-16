@@ -25,7 +25,7 @@ long_description = '\n'.join([open('README.txt').read(),
                               open('TODO.txt').read()])
 setup(
     name='django-errorstack',
-    version='0.1pre%s' % hgrev,
+    version='0.1.0',
     description=('Easy Django integration with the ErrorStack.com service'),
     long_description=long_description,
     author='Carl Meyer',
