@@ -5,7 +5,8 @@ from django.core.exceptions import MiddlewareNotUsed, ImproperlyConfigured
 from django.conf import settings as django_settings
 
 from errorstack import settings
-from errorstack.handlers import logger
+
+logger = logging.getLogger(settings.LOGGER_NAME)
 
 class ErrorStackMiddleware(object):
 
