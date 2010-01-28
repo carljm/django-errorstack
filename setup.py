@@ -20,9 +20,9 @@ try:
 except IOError:
     hgrev = ''
 
-long_description = '\n'.join([open('README.txt').read(),
-                              open('CHANGES.txt').read(),
-                              open('TODO.txt').read()])
+long_description = '\n'.join([open('README.rst').read(),
+                              open('CHANGES.rst').read(),
+                              open('TODO.rst').read()])
 setup(
     name='django-errorstack',
     version='0.1.0.post%s' % hgrev,
