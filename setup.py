@@ -42,5 +42,5 @@ setup(
         'Framework :: Django',
     ],
     zip_safe=False,
-    test_suite='errorstack.tests.runtests.runtests',
+    test_suite='runtests.runtests',
 )
