@@ -4,6 +4,7 @@ import logging.handlers
 from errorstack import settings
 
 if settings.STACK_KEY is None:
+    from django.core.exceptions import ImproperlyConfigured
     raise ImproperlyConfigured('ErrorStackHandler requires the '
                                'ERRORSTACK_STACK_KEY setting.')
 
